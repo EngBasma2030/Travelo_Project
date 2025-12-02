@@ -6,4 +6,6 @@ const SignUPT = () => {
   );
 };
 
+D
 export default SignUPT;
+

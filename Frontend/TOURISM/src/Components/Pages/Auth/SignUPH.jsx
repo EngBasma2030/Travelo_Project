@@ -6,4 +6,6 @@ const SignUpH = () => {
   );
 };
 
+
 export default SignUpH;
+
