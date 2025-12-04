@@ -41,7 +41,7 @@ export default function SignUPH() {
   }
 
   return (
-    <div className="flex flex-row gap-[96px] mt-[5px]">
+    <div className="flex flex-row ">
       <div className="mt-[104px] ml-[125px] gap-[64px] w-[414px] h-[762px]">
         <div className="flex flex-row items-center gap-2">
           <p className="text-[64px] monotype-corsiva">Travel</p>
@@ -97,7 +97,6 @@ export default function SignUPH() {
               <input type="checkbox" {...register("checkbox")} />
               <p className="pl-2">I agree to all the <span className="text-[#FF8682] font-semibold">Terms</span> and <span className="text-[#FF8682] font-semibold">Privacy Policies</span></p>
             </div>
-            {errors.checkbox && <p className="text-red-500 text-sm">{errors.checkbox.message}</p>}
           </div>
           <button type="submit" className="bg-[#27A599] text-[#112211] w-[414px] h-[49px] p-[10px] gap-[10px] rounded-[8px] text-[24px] font-semibold flex justify-center items-center">Create Account</button>
           <p className="text-center">
